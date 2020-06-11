@@ -16,24 +16,40 @@
 			<li><a href="https://gamer18rus.github.io">Чтобы вернуться обратно</a></li>			
 		</ul>
 	    <h1>Ну ещё один бонус к моему проекту это моё радио</h1>
-<div id="radioheart-player"
-        class="extra-sky"
-        data-stream="https://listen.myrh.ru/id029277"
-        data-autostart="false"
-        data-volume="0.5"
-        data-playtext="Нажмите play для начала воспроизведения">
-    <div class="play-pause-container">
+ <div id="radioheart-player"
+     class="panel-black"
+     data-stream="https://listen.myrh.ru/id029277"
+     data-autostart="false"
+     data-volume="0.5"
+     data-logo="https://billing.radioheart.ru/avatars/15124128885a2596d897c85.jpg"
+     data-playtext="Нажмите play для начала воспроизведения"
+>
+    <div class="player-wrapper">
+        <div class="logo" id="radioheart-player-logo" title=""></div>
+        <div class="controls">
+            <div class="play" id="radioheart-player-play">
+                <i class="fa fa-play"></i>
+            </div>
+            <div class="pause hidden" id="radioheart-player-pause">
+                <i class="fa fa-stop"></i>
+            </div>
+        </div>
         <div class="current-song marquee"
              id="radioheart-player-current-song"
              data-marquee=""
         >
         </div>
-        <div class="play" id="radioheart-player-play"></div>
-        <div class="pause hidden" id="radioheart-player-pause"></div>
-        <div class="volume" id="radioheart-player-volume"></div>
-        <div class="mutecontrol active" id="radioheart-player-mute"></div>
+        <div class="sound-control">
+            <div class="mute-control">
+                <div class="mutecontrol active" id="radioheart-player-mute"></div>
+            </div>
+            <div class="volume-control">
+                <div class="volume" id="radioheart-player-volume"></div>
+            </div>
+        </div>
     </div>
 </div>
+
 <script src="https://player.radioheart.ru/js/app.js"></script>
 <link type="text/css" rel="stylesheet" href="https://player.radioheart.ru/css/app.css">
 	    <h1>Простите что без оформления, но у автора ещё один проект :)</h1>    
